@@ -4,7 +4,7 @@ from prefect import flow, task
 def print_hello(who):
     print(f"Hello, {who}!")
 
-@flow(name="Hello", log_prints=True)
+@flow(name="Ming's test flow", log_prints=True)
 def first_flow(who):
     print_hello(who)
 
