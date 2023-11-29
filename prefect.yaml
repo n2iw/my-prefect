@@ -32,7 +32,8 @@ deployments:
   tags: []
   description: null
   entrypoint: hello.py:first_flow
-  parameters: {}
+  parameters:
+    who: Prefect
   work_pool:
     name: fnl-worker
     work_queue_name: default
