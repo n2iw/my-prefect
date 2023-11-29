@@ -1,4 +1,3 @@
-from neo4j import Driver
 from prefect import flow, task
 
 @task
